@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Carros</title>
+  <!-- Fuente de Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Enlace a CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="logo"> AutoStore</div>
+    <nav id="nav">
+      <ul>
+        <li><a href="catalogo.html">catalogo</a></li>
+        <li><a href="acerca.html">acerca</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="servicios.html">servicios</a></li>
+      </ul>
+    </nav>
+    <button id="menu-btn">☰</button>
+  </header>
+
+  <!-- Hero -->
+<section class="hero">
+  <!-- Aquí pones tu video -->
+  <video autoplay muted loop playsinline id="bg-video">
+    <source src="images/fondo.mp4" type="video/mp4">
+    Tu navegador no soporta videos en HTML5.
+  </video>
+
+  <!-- Texto sobre el video -->
+  <div class="hero-content">
+    <h1>Bienvenido a AutoStore</h1>
+    <p>Descubre la mejor selección de autos deportivos, SUV y eléctricos.</p>
+    <a href="#productos" class="btn">Ver productos</a>
+  </div>
+</section>
+
+
+  <!-- Sección de productos -->
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="productos-grid">
+      <div class="producto">
+        <img src="images/carro deportivo.jpg" alt="Carro deportivo">
+        <h3>Carro Deportivo</h3>
+        <p>Velocidad, diseño y potencia.</p>
+        <button class="btn">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="images/suv familiar.webp" alt="SUV familiar">
+        <h3>SUV Familiar</h3>
+        <p>Comodidad y espacio para toda la familia.</p>
+        <button class="btn">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="images/carro elec.webp" alt="Carro eléctrico">
+        <h3>Carro Eléctrico</h3>
+        <p>Innovación y cuidado del medio ambiente.</p>
+        <button class="btn">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="galeria-grid">
+      <img src="images/carrorojo.webp" alt="Carro rojo">
+      <img src="images/CARROazul.jpg" alt="Carro azul">
+      <img src="images/carro negro.webp" alt="Carro negro">
+      <img src="images/carro blanco.webp" alt="Carro blanco">
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer id="contacto">
+    <p>&copy; 2025 AutoStore | Contacto: info@autostore.com</p>
+    <div class="redes">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
 
